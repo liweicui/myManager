@@ -1,0 +1,28 @@
+.time-range{
+	border-bottom:1px solid #d0d0d0;
+	
+	padding-top:20px;
+	height:1%;overflow:hidden;
+}
+
+.selectlist-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+		height:1%;overflow:hidden;
+	
+}
+
+.selectlist-item {
+	/* Icon from http://pinvoke.com/ */
+	border-left: solid 1px #eee;
+	border-top: solid 1px #eee;
+	border-right: solid 2px #ccc;
+	border-bottom: solid 2px #ccc;
+	cursor: pointer;
+	padding: 0.2em 0.3em;
+	margin: 1px 4% auto 1%;
+	float:left;
+	width:300px;
+}
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Spring3mvc</display-name>
+	<listener>    
+        <listener-class>    
+            org.springframework.web.context.request.RequestContextListener    
+        </listener-class>    
+	</listener>    
+	<!-- 添加spring3控制器及映射规则 -->
+	<context-param>
+	   <param-name>contextConfigLocation</param-name>
+				<param-value>/WEB-INF/spring3mvc-servlet.xml</param-value>
+		</context-param>
+	<servlet>
+		<servlet-name>spring3mvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>spring3mvc</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+  	<!--  
+	  <filter>  
+        <filter-name>authority</filter-name>  
+        <filter-class>com.skylineSkaters.filter.AuthorityFilter</filter-class>  
+        <init-param>  
+            <param-name>encoding</param-name>  
+            <param-value>UTF-8</param-value>  
+        </init-param>  
+        <init-param>  
+            <param-name>loginPage</param-name>  
+            <param-value>/login.jsp</param-value>  
+        </init-param>  
+        <init-param>  
+            <param-name>notFilterRequest</param-name>  
+            <param-value>/managerSystem/login.do</param-value>  
+        </init-param>  
+    </filter> 
+    
+     
+    <filter-mapping>  
+        <filter-name>authority</filter-name>  
+        <url-pattern>/systemManager/*</url-pattern>  
+    </filter-mapping>
+	-->
+	<welcome-file-list>
+	  <welcome-file>/index.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>

@@ -1,0 +1,12 @@
+.search-filter{ width: 150px;display:inline-block !important; }
+.daterange-picker {background: #fff; cursor: pointer; width:205px; padding: 5px 10px; border: 1px solid #ccc;}
+
+.multi-filter .form-horizontal .search-label{width: 70px; text-align: right;margin-right: 10px;}
+.multi-filter .form-horizontal .search-filter{width: 650px;}
+.multi-filter .form-horizontal .s-game-filter{width:265px;}
+.multi-filter .form-horizontal .daterange-picker {display: inline-block;}
+.multi-filter .form-horizontal .filter-btn {margin-left: 10px;vertical-align: top;}
+
+.multi-filter .form-group{ margin-bottom: 10px;}
+
+
