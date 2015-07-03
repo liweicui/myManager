@@ -1,0 +1,22 @@
+﻿#des{
+	display:none;
+	background-color: #b9c9c8;
+	border: 1px solid #ccc; /*#9A9A9A*/
+	font: 9pt "宋体";
+	z-index: 99;
+	width: 295px;
+	height: 140px;
+	left: 500; /*FF IE7*/
+	top: 50; /*FF IE7*/
+	margin-left: -295px !important; /*FF IE7 该值为本身宽的一半 */
+	margin-top: 0px !important; /*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed !important; /*FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document . compatMode && 
+             document . compatMode == 'CSS1Compat') ? 
+             documentElement . scrollTop +   ( document .
+		documentElement . clientHeight-this . offsetHeight )/ 2 : /*IE6*/ 
+             document . body . scrollTop +   ( document . body .
+		clientHeight -   this . clientHeight )/ 2 ); /*IE5 IE5.5*/
+}

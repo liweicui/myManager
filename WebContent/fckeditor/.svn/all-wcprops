@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/2619/info-pub-web/trunk/src/webroot/fckeditor
+END
+fckpackager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/fckpackager.xml
+END
+fcktemplates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/fcktemplates.xml
+END
+fckconfig.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/fckconfig.js
+END
+fckstyles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/fckstyles.xml
+END
+myconfig.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/myconfig.js
+END
+fckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/47/info-pub-web/trunk/src/webroot/fckeditor/fckeditor.js
+END

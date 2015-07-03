@@ -1,11 +1,11 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ page contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/common.css" type="text/css" />
+<link rel="stylesheet" href="/css/common.css" type="text/css" />
 <title>左侧导航栏</title>
 <script type="text/javascript">
 var preClassName = ""; 
@@ -167,6 +167,7 @@ outlookbar.additem('点击退出登录',t,'index.do?method=loginOut')
 </script>
 </head>
 <body onload="initinav('0')">
+
   <div id="left_content">
 	<div id="user_info">
 		欢迎您，<strong><c:out value='${user.username}'/></strong> <br/>

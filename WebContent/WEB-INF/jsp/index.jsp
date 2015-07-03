@@ -9,13 +9,13 @@
 <title>通用后台管理系统</title>
 </head>
 <frameset rows="50,*" cols="*" frameborder="no" border="0" framespacing="0">
-  <frame src="../index.do?method=topFrame" name="topFrame" frameborder="no" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
+  <frame src="../index/topFrame.do" name="topFrame" frameborder="no" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
   <frameset name="myFrame" cols="199,7,*" frameborder="no" border="0" framespacing="0">
-    <frame src="../index.do?method=leftFrame" name="leftFrame" frameborder="no" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
-	<frame src="../index.do?method=lineFrame" name="midFrame" frameborder="no" scrolling="No" noresize="noresize" id="midFrame" title="midFrame" />
+    <frame src="../index/leftFrame.do" name="leftFrame" frameborder="no" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
+	<frame src="../index/lineFrame.do" name="midFrame" frameborder="no" scrolling="No" noresize="noresize" id="midFrame" title="midFrame" />
     <frameset rows="59,*" cols="*" frameborder="no" border="0" framespacing="0">
-         <frame src="../index.do?method=tagFrame" name="tagFrame" frameborder="no" scrolling="No"  noresize="noresize" id="tagFrame" title="tagFrame" />
-         <frame src="../index.do?method=mainFrame" name="manFrame" frameborder="no" id="manFrame" title="manFrame" />
+         <frame src="../index/tagFrame.do" name="tagFrame" frameborder="no" scrolling="No"  noresize="noresize" id="tagFrame" title="tagFrame" />
+         <frame src="../index/manFrame.do" name="manFrame" frameborder="no" id="manFrame" title="manFrame" />
      </frameset>
   </frameset>
 </frameset>

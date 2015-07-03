@@ -11,9 +11,9 @@
 
 <body>
 <div class="header_content">
-     <div class="logo"><img src="images/logo.gif" alt="后台管理系统" /></div>
+     <div class="logo"><img src="/images/logo.gif" alt="后台管理系统" /></div>
 	 <div class="right_nav">
-	    <div class="text_left"><ul class="nav_list"><li><img src="images/direct.gif" width="8" height="21" />网站后台管理系统</li></ul>
+	    <div class="text_left"><ul class="nav_list"><li><img src="/images/direct.gif" width="8" height="21" />后台管理系统</li></ul>
 	    </div>
 		<div class="text_right">
 		</div>
