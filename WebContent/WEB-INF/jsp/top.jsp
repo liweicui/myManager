@@ -5,13 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/common.css" type="text/css" />
+<link rel="stylesheet" href="/css/common.css" type="text/css" />
 <title>通用后台管理系统</title>
 </head>
 
 <body>
 <div class="header_content">
-     <div class="logo"><img src="/images/logo.gif" alt="后台管理系统" /></div>
+     <div class="logo"><img src="/images/logo1.gif" alt="后台管理系统" /></div>
 	 <div class="right_nav">
 	    <div class="text_left"><ul class="nav_list"><li><img src="/images/direct.gif" width="8" height="21" />后台管理系统</li></ul>
 	    </div>
